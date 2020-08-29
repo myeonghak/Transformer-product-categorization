@@ -96,7 +96,7 @@ preprocessing and spm-encoding are executed in this part. the trained neural net
 Results
 -------
 
-We provide the results of our proposed method on multilingual SQuAD datasets. - Japanese
+Transformer based model outperforms the baseline model using Bidirectional LSTM and Convolutional Network. please note that CNN layer is applied to the transformer based model as well.
 
 | methods                 | Accuracy  |
 |-------------------------|:---------:|
