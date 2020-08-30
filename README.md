@@ -88,11 +88,6 @@ Model structure is defined in the module.
 
 preprocessing and spm-encoding are executed in this part. the trained neural network weights are loaded and it is used to make prediction on the tokens of the given texts.
 
-|          | question sentences                                                             |
-|----------|:------------------------------------------------------------------------------:|
-| Japanese | [questions.ja](data/questions_jaen.ja), [questions.en](data/questions_jaen.en) |
-| French   | [questions.fr](data/questions_fren.fr), [questions.en](data/questions_jaen.en) |
-
 Results
 -------
 
