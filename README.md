@@ -17,7 +17,6 @@ Dataset
 
 -	Dataset contains more than 1.2 million product name and its label.
 -	The number of category label is 3827.
--	Due to confidentiality reasons, the dataset is not available.
 
 ### Structure
 
