@@ -92,7 +92,13 @@ Results
 
 Transformer based model outperforms the baseline model using Bidirectional LSTM and Convolutional Network. please note that CNN layer is applied to the transformer based model as well.
 
-| methods                 | Accuracy  |
-|-------------------------|:---------:|
-| Transformer based model | **92.14** |
-| BiLSTM+CNN              |   90.47   |
+| methods                 | Accuracy | Micro f1 score| Macro f1 score |
+|-------------------------|:---------:|:---:|:---:|
+| Transformer based model | **92.14** | **78.81** | **82.21** |
+| BiLSTM+CNN              |   89.47   | 76.42 | 77.91|
+
+* micro f1 score:  
+  Calculate metrics globally by counting the total true positives, false negatives and false positives.
+
+* macro f1 score:  
+  Calculate metrics for each label, and find their unweighted mean. This does not take label imbalance into account.
