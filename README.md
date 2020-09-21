@@ -28,7 +28,7 @@ The overview of the model structure will be illustrated below.
 
 In this model, BPE(Byte Pair Encoding) tokenization method is used. Google provides inofficial package named [sentencepiece](https://github.com/google/sentencepiece).<p> BPE splits texts into subword tokens, based on frequency in the text. It makes a vocabulary list of specified number (vocab_size), and in this project I used 40,000 for the vocab_size.
 
-[Example] ![SPM](https://lh3.googleusercontent.com/proxy/Oo7uS8oVxl6U9JPpmKJ5ttHaWxRJdjZkHsZyQSpxcbFYTany58NaQ-Ss-OxXkQTDVPulU9Sp5QLj1D-AUnLEk3245cjrH_GluNNzVS0NdpJoZ_cyw2bhSlBqXxwVzpOA7FuQMimiyYQQ)
+[Example] ![SPM](https://miro.medium.com/max/1000/0*5mtp6MQ_JNBsVEfU)
 
 For more detailed explanation on BPE and WPM(Word Piece Model), please check this post (In Korean) : https://lovit.github.io/nlp/2018/04/02/wpm/
 
