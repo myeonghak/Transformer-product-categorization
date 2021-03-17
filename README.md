@@ -1,7 +1,8 @@
 Transformer based product categorization model
 ==============================================
 
-Given a product name in text, classify its category using NLP transformer based categorization model.
+Given a product name in text, classify its category using a transformer based categorization model.
+
 
 Contents
 --------
