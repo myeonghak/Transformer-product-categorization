@@ -3,8 +3,6 @@ Transformer based product categorization model
 
 Given a product name in text, classify its category using a transformer based categorization model.
 
-* codes and readme will be updated soon
-
 Contents
 --------
 
